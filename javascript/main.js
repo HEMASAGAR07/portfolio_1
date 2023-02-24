@@ -4,7 +4,7 @@ swup.on('contentReplaced', update);
 var temp = 0;
 
 function update() {
-    if (window.location.href == 'https://sibichakkaravarthy.github.io/index.html') {
+    if (window.location.href == 'https://portfolio_1/index.html') {
         document.getElementById('mm0').classList.add('active');
         document.getElementById('mm1').classList.remove('active');
         document.getElementById('mm2').classList.remove('active');
@@ -15,7 +15,7 @@ function update() {
 
         temp = 0;
     }
-    if (window.location.href == 'https://sibichakkaravarthy.github.io/aboutMe.html') {
+    if (window.location.href == 'https://portfolio_1/aboutMe.html') {
         document.getElementById('mm0').classList.remove('active');
         document.getElementById('mm1').classList.add('active');
         document.getElementById('mm2').classList.remove('active');
@@ -24,7 +24,7 @@ function update() {
         document.getElementById('mm5').classList.remove('active');
         temp = 1;
     }
-    if (window.location.href == 'https://sibichakkaravarthy.github.io/researchGrant.html') {
+    if (window.location.href == 'https://portfolio_1/acadamics.html') {
         document.getElementById('mm0').classList.remove('active');
         document.getElementById('mm1').classList.remove('active');
         document.getElementById('mm2').classList.add('active');
@@ -33,7 +33,7 @@ function update() {
         document.getElementById('mm5').classList.remove('active');
         temp = 2;
     }
-    if (window.location.href == 'https://sibichakkaravarthy.github.io/researchProjects.html') {
+    if (window.location.href == 'https://portfolio_1/skills.html') {
         document.getElementById('mm0').classList.remove('active');
         document.getElementById('mm1').classList.remove('active');
         document.getElementById('mm2').classList.remove('active');
